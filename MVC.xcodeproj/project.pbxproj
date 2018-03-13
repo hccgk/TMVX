@@ -180,48 +180,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20CFAEF1210B238FC4CB8579 /* Frameworks */ = {
+		0E23ED06205764F5008EACB0 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				9F3DECDF82D1BB7FF5DD2175 /* libPods-MVC.a */,
+				0E23ED0B205765A8008EACB0 /* C */,
+				0E23ED0A20576587008EACB0 /* V */,
+				0E23ED0920576578008EACB0 /* M */,
+				0E23ED082057654D008EACB0 /* Scene */,
 			);
-			name = Frameworks;
+			path = MVC;
 			sourceTree = "<group>";
 		};
-		9D0806B51E73B45700F929F7 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				9D0806B81E73BF4600F929F7 /* Scene */,
-				9DDC0A1D1E703137003509E4 /* M */,
-				9DDC0A1E1E70313B003509E4 /* V */,
-				9DDC0A1F1E70313E003509E4 /* C */,
-			);
-			name = MVC;
-			sourceTree = "<group>";
-		};
-		9D0806B61E73B52900F929F7 /* MVP */ = {
-			isa = PBXGroup;
-			children = (
-				9D0806EA1E73F90300F929F7 /* Scene */,
-				9D0806CA1E73D4B700F929F7 /* C */,
-				9D0806C91E73D4B400F929F7 /* V */,
-				9D0806C81E73D4A400F929F7 /* P */,
-			);
-			name = MVP;
-			sourceTree = "<group>";
-		};
-		9D0806B71E73B52D00F929F7 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				9D0806CD1E73D4C600F929F7 /* Scene */,
-				9D0806CC1E73D4C100F929F7 /* V */,
-				9D62F5EB1E8E84AA004D500D /* C */,
-				9D0806CB1E73D4BB00F929F7 /* VM */,
-			);
-			name = MVVM;
-			sourceTree = "<group>";
-		};
-		9D0806B81E73BF4600F929F7 /* Scene */ = {
+		0E23ED082057654D008EACB0 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
 				9DDC0A3B1E703211003509E4 /* UserViewController.h */,
@@ -230,10 +200,98 @@
 				9D0806BC1E73BFC100F929F7 /* SelfViewController.h */,
 				9D0806BD1E73BFC100F929F7 /* SelfViewController.m */,
 			);
-			name = Scene;
+			path = Scene;
 			sourceTree = "<group>";
 		};
-		9D0806C81E73D4A400F929F7 /* P */ = {
+		0E23ED0920576578008EACB0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				9DDC0A381E7031E4003509E4 /* User.h */,
+				9DDC0A391E7031E4003509E4 /* User.m */,
+				9DDC0A201E703158003509E4 /* Blog.h */,
+				9DDC0A211E703158003509E4 /* Blog.m */,
+				9DDC0A591E70472B003509E4 /* Draft.h */,
+				9DDC0A5A1E70472B003509E4 /* Draft.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		0E23ED0A20576587008EACB0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				9DDC0A261E70317E003509E4 /* BlogTableViewCell.h */,
+				9DDC0A271E70317E003509E4 /* BlogTableViewCell.m */,
+				9DDC0A281E70317E003509E4 /* BlogTableViewCell.xib */,
+				9DDC0A2B1E70318D003509E4 /* DraftTableViewCell.h */,
+				9DDC0A2C1E70318D003509E4 /* DraftTableViewCell.m */,
+				9DDC0A2D1E70318D003509E4 /* DraftTableViewCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		0E23ED0B205765A8008EACB0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				9DDC0A1A1E703132003509E4 /* BlogTableViewController.h */,
+				9DDC0A1B1E703132003509E4 /* BlogTableViewController.m */,
+				9DDC0A301E7031B7003509E4 /* DraftTableViewController.h */,
+				9DDC0A311E7031B7003509E4 /* DraftTableViewController.m */,
+				9DDC0A331E7031D1003509E4 /* UserInfoViewController.h */,
+				9DDC0A341E7031D1003509E4 /* UserInfoViewController.m */,
+				9DDC0A351E7031D1003509E4 /* UserInfoViewController.xib */,
+				9D51A33A1E7189EB0032599F /* BlogCellHelper.h */,
+				9D51A33B1E7189EB0032599F /* BlogCellHelper.m */,
+				9D51A33D1E7189F90032599F /* DraftCellHelper.h */,
+				9D51A33E1E7189F90032599F /* DraftCellHelper.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		0E23ED0D205765FC008EACB0 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				0E23ED112057661A008EACB0 /* P */,
+				0E23ED1020576616008EACB0 /* V */,
+				0E23ED0F20576611008EACB0 /* C */,
+				0E23ED0E2057660A008EACB0 /* Secene */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		0E23ED0E2057660A008EACB0 /* Secene */ = {
+			isa = PBXGroup;
+			children = (
+				9D0806EB1E73F92C00F929F7 /* MVPUserViewController.h */,
+				9D0806EC1E73F92C00F929F7 /* MVPUserViewController.m */,
+			);
+			path = Secene;
+			sourceTree = "<group>";
+		};
+		0E23ED0F20576611008EACB0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				9D0806CE1E73D4FA00F929F7 /* BlogViewController.h */,
+				9D0806CF1E73D4FA00F929F7 /* BlogViewController.m */,
+				9D0806D11E73D50600F929F7 /* DraftViewController.h */,
+				9D0806D21E73D50600F929F7 /* DraftViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		0E23ED1020576616008EACB0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				9D0806DA1E73D54E00F929F7 /* BlogViewCell.h */,
+				9D0806DB1E73D54E00F929F7 /* BlogViewCell.m */,
+				9D0806DC1E73D54E00F929F7 /* BlogViewCell.xib */,
+				9D0806DF1E73D55E00F929F7 /* DraftViewCell.h */,
+				9D0806E01E73D55E00F929F7 /* DraftViewCell.m */,
+				9D0806E11E73D55E00F929F7 /* DraftViewCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		0E23ED112057661A008EACB0 /* P */ = {
 			isa = PBXGroup;
 			children = (
 				9D0806D41E73D51B00F929F7 /* BlogViewPresenter.h */,
@@ -245,47 +303,21 @@
 				9D0806E71E73DACA00F929F7 /* DraftCellPresenter.h */,
 				9D0806E81E73DACA00F929F7 /* DraftCellPresenter.m */,
 			);
-			name = P;
+			path = P;
 			sourceTree = "<group>";
 		};
-		9D0806C91E73D4B400F929F7 /* V */ = {
+		0E23ED1320576647008EACB0 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				9D0806DA1E73D54E00F929F7 /* BlogViewCell.h */,
-				9D0806DB1E73D54E00F929F7 /* BlogViewCell.m */,
-				9D0806DC1E73D54E00F929F7 /* BlogViewCell.xib */,
-				9D0806DF1E73D55E00F929F7 /* DraftViewCell.h */,
-				9D0806E01E73D55E00F929F7 /* DraftViewCell.m */,
-				9D0806E11E73D55E00F929F7 /* DraftViewCell.xib */,
+				0E23ED1720576678008EACB0 /* C */,
+				0E23ED162057666E008EACB0 /* VM */,
+				0E23ED1520576661008EACB0 /* Scene */,
+				0E23ED1420576658008EACB0 /* V */,
 			);
-			name = V;
+			path = MVVM;
 			sourceTree = "<group>";
 		};
-		9D0806CA1E73D4B700F929F7 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				9D0806CE1E73D4FA00F929F7 /* BlogViewController.h */,
-				9D0806CF1E73D4FA00F929F7 /* BlogViewController.m */,
-				9D0806D11E73D50600F929F7 /* DraftViewController.h */,
-				9D0806D21E73D50600F929F7 /* DraftViewController.m */,
-			);
-			name = C;
-			sourceTree = "<group>";
-		};
-		9D0806CB1E73D4BB00F929F7 /* VM */ = {
-			isa = PBXGroup;
-			children = (
-				9DCB4A6A1E7439FE0064E977 /* BlogViewModel.h */,
-				9DCB4A6B1E7439FE0064E977 /* BlogViewModel.m */,
-				9DCB4A671E7439F40064E977 /* BlogCellViewModel.h */,
-				9DCB4A681E7439F40064E977 /* BlogCellViewModel.m */,
-				9D62F5F21E8E851E004D500D /* UserInfoViewModel.h */,
-				9D62F5F31E8E851E004D500D /* UserInfoViewModel.m */,
-			);
-			name = VM;
-			sourceTree = "<group>";
-		};
-		9D0806CC1E73D4C100F929F7 /* V */ = {
+		0E23ED1420576658008EACB0 /* V */ = {
 			isa = PBXGroup;
 			children = (
 				9DCB4A7B1E743B340064E977 /* BlogView.h */,
@@ -296,34 +328,46 @@
 				9D62F5EF1E8E84FC004D500D /* UserInfoView.h */,
 				9D62F5F01E8E84FC004D500D /* UserInfoView.m */,
 			);
-			name = V;
+			path = V;
 			sourceTree = "<group>";
 		};
-		9D0806CD1E73D4C600F929F7 /* Scene */ = {
+		0E23ED1520576661008EACB0 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
 				9DCB4A751E743A8A0064E977 /* MVVMUserViewController.h */,
 				9DCB4A761E743A8A0064E977 /* MVVMUserViewController.m */,
 			);
-			name = Scene;
+			path = Scene;
 			sourceTree = "<group>";
 		};
-		9D0806EA1E73F90300F929F7 /* Scene */ = {
+		0E23ED162057666E008EACB0 /* VM */ = {
 			isa = PBXGroup;
 			children = (
-				9D0806EB1E73F92C00F929F7 /* MVPUserViewController.h */,
-				9D0806EC1E73F92C00F929F7 /* MVPUserViewController.m */,
+				9DCB4A6A1E7439FE0064E977 /* BlogViewModel.h */,
+				9DCB4A6B1E7439FE0064E977 /* BlogViewModel.m */,
+				9DCB4A671E7439F40064E977 /* BlogCellViewModel.h */,
+				9DCB4A681E7439F40064E977 /* BlogCellViewModel.m */,
+				9D62F5F21E8E851E004D500D /* UserInfoViewModel.h */,
+				9D62F5F31E8E851E004D500D /* UserInfoViewModel.m */,
 			);
-			name = Scene;
+			path = VM;
 			sourceTree = "<group>";
 		};
-		9D62F5EB1E8E84AA004D500D /* C */ = {
+		0E23ED1720576678008EACB0 /* C */ = {
 			isa = PBXGroup;
 			children = (
 				9D62F5EC1E8E84DE004D500D /* UserInfoController.h */,
 				9D62F5ED1E8E84DE004D500D /* UserInfoController.m */,
 			);
-			name = C;
+			path = C;
+			sourceTree = "<group>";
+		};
+		20CFAEF1210B238FC4CB8579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3DECDF82D1BB7FF5DD2175 /* libPods-MVC.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9DDC09F71E703007003509E4 = {
@@ -349,9 +393,9 @@
 			children = (
 				9DDC0A4C1E703A2D003509E4 /* Utils */,
 				9DDC0A3E1E703263003509E4 /* APIManager */,
-				9D0806B51E73B45700F929F7 /* MVC */,
-				9D0806B61E73B52900F929F7 /* MVP */,
-				9D0806B71E73B52D00F929F7 /* MVVM */,
+				0E23ED06205764F5008EACB0 /* MVC */,
+				0E23ED0D205765FC008EACB0 /* MVP */,
+				0E23ED1320576647008EACB0 /* MVVM */,
 				9DDC0A091E703007003509E4 /* ViewController.h */,
 				9DDC0A0A1E703007003509E4 /* ViewController.m */,
 				9D51A3461E7193C00032599F /* DetailViewController.h */,
@@ -386,50 +430,6 @@
 				9D51A34C1E719B1F0032599F /* like@3x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9DDC0A1D1E703137003509E4 /* M */ = {
-			isa = PBXGroup;
-			children = (
-				9DDC0A381E7031E4003509E4 /* User.h */,
-				9DDC0A391E7031E4003509E4 /* User.m */,
-				9DDC0A201E703158003509E4 /* Blog.h */,
-				9DDC0A211E703158003509E4 /* Blog.m */,
-				9DDC0A591E70472B003509E4 /* Draft.h */,
-				9DDC0A5A1E70472B003509E4 /* Draft.m */,
-			);
-			name = M;
-			sourceTree = "<group>";
-		};
-		9DDC0A1E1E70313B003509E4 /* V */ = {
-			isa = PBXGroup;
-			children = (
-				9DDC0A261E70317E003509E4 /* BlogTableViewCell.h */,
-				9DDC0A271E70317E003509E4 /* BlogTableViewCell.m */,
-				9DDC0A281E70317E003509E4 /* BlogTableViewCell.xib */,
-				9DDC0A2B1E70318D003509E4 /* DraftTableViewCell.h */,
-				9DDC0A2C1E70318D003509E4 /* DraftTableViewCell.m */,
-				9DDC0A2D1E70318D003509E4 /* DraftTableViewCell.xib */,
-			);
-			name = V;
-			sourceTree = "<group>";
-		};
-		9DDC0A1F1E70313E003509E4 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				9DDC0A1A1E703132003509E4 /* BlogTableViewController.h */,
-				9DDC0A1B1E703132003509E4 /* BlogTableViewController.m */,
-				9DDC0A301E7031B7003509E4 /* DraftTableViewController.h */,
-				9DDC0A311E7031B7003509E4 /* DraftTableViewController.m */,
-				9DDC0A331E7031D1003509E4 /* UserInfoViewController.h */,
-				9DDC0A341E7031D1003509E4 /* UserInfoViewController.m */,
-				9DDC0A351E7031D1003509E4 /* UserInfoViewController.xib */,
-				9D51A33A1E7189EB0032599F /* BlogCellHelper.h */,
-				9D51A33B1E7189EB0032599F /* BlogCellHelper.m */,
-				9D51A33D1E7189F90032599F /* DraftCellHelper.h */,
-				9D51A33E1E7189F90032599F /* DraftCellHelper.m */,
-			);
-			name = C;
 			sourceTree = "<group>";
 		};
 		9DDC0A3E1E703263003509E4 /* APIManager */ = {
